@@ -5,6 +5,7 @@ A list of helpful commands I forget everyday 😁
 + [Containers](#Containers)
 + [Database](#Database)
 + [Networking](#Networking)
++ [Version Control](#version-control)
 
 ## Containers
 ### Docker
@@ -34,3 +35,6 @@ A list of helpful commands I forget everyday 😁
 
 `nginx -c $(pwd)/nginx.conf` Run nginx conf in current directory
  
+## Version Control
+### Git
+`git push -u origin {branchname}` Push new branch to remote
