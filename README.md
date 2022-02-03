@@ -6,6 +6,7 @@ A list of helpful commands I forget everyday 😁
 + [Database](#Database)
 + [Networking](#Networking)
 + [Version Control](#version-control)
++ [Keyboard Shortcuts](#keyboard-shortcuts)
 
 ## Containers
 ### Docker
@@ -38,3 +39,9 @@ A list of helpful commands I forget everyday 😁
 ## Version Control
 ### Git
 `git push -u origin {branchname}` Push new branch to remote
+
+## Keyboard Shortcuts
+### Windows
+`{WIN} + {CTRL} + {Left|Right Arrow}` Switch desktops
+
+### MacOS
