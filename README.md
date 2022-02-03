@@ -43,5 +43,5 @@ A list of helpful commands I forget everyday 😁
 ## Keyboard Shortcuts
 ### Windows
 `{WIN} + {CTRL} + {Left|Right Arrow}` Switch desktops
-
+`{WIN} + {TAB}` View all open windows in tiled overlay (and desktops along top of screen)
 ### MacOS
