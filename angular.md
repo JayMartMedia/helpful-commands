@@ -1,5 +1,8 @@
-# Generation
-## Component
+## App
+`ng serve --host 0.0.0.0` serve the app on the local network (by default is only accessible on local machine via localhost
+
+## Generation
+### Component
 
 https://angular.io/cli/generate#component
 
