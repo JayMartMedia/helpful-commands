@@ -20,6 +20,8 @@ Resource: https://linux.die.net/man/1/ssh
 
 `ssh jmm@192.168.1.123` SSH into server at 192.168.1.123 as user "jmm" (will be asked for password if ssh keys not setup)
 
+`ssh jmm@192.168.1.123 ls` Run the ls command on the server at 192.168.1.123 and show results of command in local machine terminal
+
 ## SCP
 
 Resource: https://linux.die.net/man/1/scp
