@@ -1,6 +1,6 @@
-## Linux/Unix
+# Linux/Unix
 
-### Compressing files (tar)
+## Compressing files (tar)
 
 Resource: [https://angular.io/cli/generate#component](https://www.tecmint.com/18-tar-command-examples-in-linux/)
 
@@ -13,3 +13,17 @@ Resource: [https://angular.io/cli/generate#component](https://www.tecmint.com/18
 - -xvf = eXtract, verbose (list files), filename (to extract from)
 - documents.tar = .tar file to extract from
 - -C = directory to extract into
+
+## SSH
+
+Resource: https://linux.die.net/man/1/ssh
+
+`ssh jmm@192.168.1.123` SSH into server at 192.168.1.123 as user "jmm" (will be asked for password if ssh keys not setup)
+
+## SCP
+
+Resource: https://linux.die.net/man/1/scp
+
+`scp pi@192.168.1.123:/home/jmm/.bashrc /home/jmm/` use SCP to copy .bashrc file from server at 192.168.1.123 to local machine /home/jmm/ directory
+
+`scp /home/jmm/.bashrc pi@192.168.1.123:/home/jmm/` use SCP to copy .bashrc file from local machine to server at 192.168.1.123
