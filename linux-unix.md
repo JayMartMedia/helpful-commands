@@ -29,3 +29,7 @@ Resource: https://linux.die.net/man/1/scp
 `scp pi@192.168.1.123:/home/jmm/.bashrc /home/jmm/` use SCP to copy .bashrc file from server at 192.168.1.123 to local machine /home/jmm/ directory
 
 `scp /home/jmm/.bashrc pi@192.168.1.123:/home/jmm/` use SCP to copy .bashrc file from local machine to server at 192.168.1.123
+
+## Misc
+
+`printf '%-32s' "Here is text!" >> /dev/ttyS3` print a string padded with spaces to 32char and send to serial device
