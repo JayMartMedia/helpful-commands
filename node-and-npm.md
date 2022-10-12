@@ -1,9 +1,6 @@
 ## Node
 
 ## NPM
-### Component
-
-https://angular.io/cli/generate#component
 
 `npm install {packageName} --registry={registryUrl}` install from specific npm registry
 
