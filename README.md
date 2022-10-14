@@ -18,6 +18,19 @@ A list of helpful commands I forget everyday 😁
 
 `docker exec -it {containername} bin/bash` SSH into docker container
 
+#### Docker Compose
+
+`docker-compose up` Start the docker-compose.yaml file in the same directory
+
+`docker-compose -f docker-compose-local.yaml up` Startup the docker compose file specified
+
+`docker-compose up --force-recreate` Start docker compose and use new containers rather than previously used containers that have been stopped
+
+docker compose docs: https://docs.docker.com/engine/reference/commandline/compose
+
+docker compose up docs: https://docs.docker.com/engine/reference/commandline/compose_up
+
+
 ## Database
 ### PostgreSQL
 `psql -U postgres` Log into Postgres as user 'postgres'
