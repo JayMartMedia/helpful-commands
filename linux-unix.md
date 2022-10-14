@@ -33,3 +33,11 @@ Resource: https://linux.die.net/man/1/scp
 ## Misc
 
 `printf '%-32s' "Here is text!" >> /dev/ttyS3` print a string padded with spaces to 32char and send to serial device
+
+Read in a secret value (such as a password) from the command line so that it doesn't appear in shell history
+```sh
+#!/bin/sh
+echo -n "Enter secret: "   # echo text with no newline
+read -s secret             # read in secret without showing chars
+echo $secret               # do something with secret value (defo don't echo it)
+```
