@@ -59,4 +59,6 @@ docker compose up docs: https://docs.docker.com/engine/reference/commandline/com
 
 `{WIN} + {TAB}` View all open windows in tiled overlay (and desktops along top of screen)
 
+`{WIN} + {SHIFT} + S` Open screen/window/selection capture (may be Win 10 only)
+
 ### MacOS
