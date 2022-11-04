@@ -32,13 +32,22 @@ Resource: https://linux.die.net/man/1/scp
 
 ## GREP
 
-Resources: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+Resources:
+
+- General: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+- Exclude with grep: https://linuxize.com/post/grep-exclude/
 
 `grep Docker ./readme.md` search for all lines that contain "Docker" in the readme.md file
 
 `grep -r --exclude-dir=node_modules Docker` search for all lines that contain "Docker" recursively excluding the node_modules directory
 
+`grep -r --exclude=*.{png,jpg} Docker` search for "Docker" recursively and exclude files of type .png and .jpg
 
+`grep -Irn Docker` recursively search for "Docker" while excluding binary files and return the line number
+
+> -I -- process a binary file as if it did not contain matching data; 
+> -n -- prefix each line of output with the 1-based line number within its input file
+> -i -- case insensitive search
 
 ## Misc
 
