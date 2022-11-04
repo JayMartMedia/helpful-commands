@@ -45,8 +45,8 @@ Resources:
 
 `grep -Irn Docker` recursively search for "Docker" while excluding binary files and return the line number
 
-> -I -- process a binary file as if it did not contain matching data; 
-> -n -- prefix each line of output with the 1-based line number within its input file
+> -I -- process a binary file as if it did not contain matching data;  
+> -n -- prefix each line of output with the 1-based line number within its input file  
 > -i -- case insensitive search
 
 ## Misc
