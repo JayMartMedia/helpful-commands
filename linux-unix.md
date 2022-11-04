@@ -30,6 +30,16 @@ Resource: https://linux.die.net/man/1/scp
 
 `scp /home/jmm/.bashrc pi@192.168.1.123:/home/jmm/` use SCP to copy .bashrc file from local machine to server at 192.168.1.123
 
+## GREP
+
+Resources: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+
+`grep Docker ./readme.md` search for all lines that contain "Docker" in the readme.md file
+
+`grep -r --exclude-dir=node_modules Docker` search for all lines that contain "Docker" recursively excluding the node_modules directory
+
+
+
 ## Misc
 
 `printf '%-32s' "Here is text!" >> /dev/ttyS3` print a string padded with spaces to 32char and send to serial device
