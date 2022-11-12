@@ -51,6 +51,9 @@ docker compose up docs: https://docs.docker.com/engine/reference/commandline/com
  
 ## Version Control
 ### Git
+
+`git checkout -b {branchName}` Create a new branch off of the current branch and immediately check it out
+
 `git push -u origin {branchname}` Push new branch to remote
 
 ## Keyboard Shortcuts
