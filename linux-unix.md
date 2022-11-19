@@ -32,6 +32,12 @@ Resource: https://linux.die.net/man/1/scp
 
 ## GREP
 
+## CURL
+
+`curl https://www.website.com/file.pdf --output file.pdf` Download the file at the web address specified and save to an output file
+
+`curl -k https://www.website.com/file.pdf --output file.pdf` allow insecure/self-signed-cert
+
 Resources:
 
 - General: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
