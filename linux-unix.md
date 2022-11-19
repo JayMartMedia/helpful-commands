@@ -32,12 +32,6 @@ Resource: https://linux.die.net/man/1/scp
 
 ## GREP
 
-## CURL
-
-`curl https://www.website.com/file.pdf --output file.pdf` Download the file at the web address specified and save to an output file
-
-`curl -k https://www.website.com/file.pdf --output file.pdf` allow insecure/self-signed-cert
-
 Resources:
 
 - General: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
@@ -54,6 +48,12 @@ Resources:
 > -I -- process a binary file as if it did not contain matching data;  
 > -n -- prefix each line of output with the 1-based line number within its input file  
 > -i -- case insensitive search
+
+## CURL
+
+`curl https://www.website.com/file.pdf --output file.pdf` Download the file at the web address specified and save to an output file
+
+`curl -k https://www.website.com/file.pdf --output file.pdf` allow insecure/self-signed-cert
 
 ## Misc
 
