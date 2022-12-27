@@ -10,6 +10,22 @@
 
 `"*p` - paste from system clipboard
 
+## Regex
+
+`/test` -> `ENTER` - search file for instances of "test"
+
+`n` - repeat search (find next instance of match)
+
+`N` - repeat search backwards (find previous instance of match)
+
+`:s/old/new` -> `ENTER` - replace the first instance of "old" with "new" in the current line only
+
+`:s/old/new/g` -> `ENTER` - replace all instances of "old" with "new" in the current line only
+
+`:%s/old/new/g` -> `ENTER` - replace all instances of "old" with "new" in the current file
+
+`:%s/old/new/gc` -> `ENTER` - replace all instances of "old" with "new" in the current file but prompt for confirmation before each instance
+
 ## Tabs
 
 `CTRL+w SHIFT+t` - move current pane to new tab
