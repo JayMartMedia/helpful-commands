@@ -56,6 +56,10 @@ docker compose up docs: https://docs.docker.com/engine/reference/commandline/com
 
 `git push -u origin {branchname}` Push new branch to remote
 
+`git config --global http.sslVerify false` - disable ssl verification (DON'T DO THIS UNLESS YOU HAVE A VERY GOOD REASON!)
+
+`git config --global http.sslVerify true` - enable ssl verification (always do ASAP after disabling)
+
 ## Keyboard Shortcuts
 ### Windows
 `{WIN} + {CTRL} + {Left|Right Arrow}` Switch desktops
