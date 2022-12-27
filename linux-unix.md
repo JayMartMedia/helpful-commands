@@ -55,6 +55,28 @@ Resources:
 
 `curl -k https://www.website.com/file.pdf --output file.pdf` allow insecure/self-signed-cert
 
+## Command History Tricks
+
+### View recent commands
+
+`history` - view recent commands
+
+`history | grep -i "cargo"` - view recent commands in history that include "cargo", -i is case-insensitive
+
+`!dotnet:p` - display the most recent command that started with "dotnet"
+
+`!12:p` - display the command at index 12
+
+### Rerun recent commands
+
+`CTRL + p` - paste in the most recent command that you ran, need to hit enter to run
+
+`!!` - immediately rerun last command
+
+`!dotnet` - immediately rerun last command that started with "dotnet"
+
+`!12` - immediately rerun command at index 12
+
 ## Misc
 
 `printf '%-32s' "Here is text!" >> /dev/ttyS3` print a string padded with spaces to 32char and send to serial device
