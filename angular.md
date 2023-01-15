@@ -17,3 +17,7 @@ Dry run (-d) allows you to preview the changes. Generate a component in a partic
 > UPDATE src/app/nav-module/nav.module.ts (560 bytes)  
 >   
 > NOTE: The "dryRun" flag means no changes were made.  
+
+## Tests
+
+`npm run test -- --include='**/app.component.spec.ts'` - run tests for only specific files
