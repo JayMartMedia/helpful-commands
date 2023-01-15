@@ -60,6 +60,10 @@ docker compose up docs: https://docs.docker.com/engine/reference/commandline/com
 
 `git config --global http.sslVerify true` - enable ssl verification (always do ASAP after disabling)
 
+`git update-index --skip-worktree packages/backend/local-config.json` - ignore changes to a tracked file in git. This could be useful if you have to change a file locally, but don't want to commit those changes. It can be dangerous to forget that it is ignored though. Use carefully.
+
+`git update-index --no-skip-worktreen packages/backend/local-config.json` - stop ignoring changes to a tracked file in git. Undoes the command above.
+
 ## Keyboard Shortcuts
 ### Windows
 `{WIN} + {CTRL} + {Left|Right Arrow}` Switch desktops
