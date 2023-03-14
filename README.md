@@ -18,6 +18,8 @@ A list of helpful commands I forget everyday 😁
 
 `docker exec -it {containername} bin/bash` SSH into docker container
 
+`docker build --progress=plain -t app-name:1.0 .` Remove special formatting which can collapse lines and hide some output
+
 #### Docker Compose
 
 `docker-compose up` Start the docker-compose.yaml file in the same directory
