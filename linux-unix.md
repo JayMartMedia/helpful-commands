@@ -78,6 +78,9 @@ Resources:
 `!12` - immediately rerun command at index 12
 
 ## Misc
+`diff <(ls old) <(ls new)` diff the output of two commands (such as comparing the contents of two directories)
+
+`echo -n "string to encode here" | base64 -w 0` base64 encode a string. -n removes the newline character when echoing, -w 0 prevents auto wrapping lines (default is 76 chars, `base64 --help` for more info)
 
 `printf '%-32s' "Here is text!" >> /dev/ttyS3` print a string padded with spaces to 32char and send to serial device
 
