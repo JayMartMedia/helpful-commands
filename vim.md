@@ -4,7 +4,7 @@
 
 `vim .` - Open a directory in vim (starts in netrc)
 
-`e .` - Browse directorys/change files (open netrc)
+`:e .` - Browse directorys/change files (open netrc)
 
 `gg=G` - format file - 'gg' = jump to top of file, '=' = format, 'G' = do it until end of file
 
