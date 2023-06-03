@@ -26,6 +26,17 @@
 
 `:%s/old/new/gc` -> `ENTER` - replace all instances of "old" with "new" in the current file but prompt for confirmation before each instance
 
+## Visual Copy/Paste
+
+1. Highlight the character you would like to start copying at
+2. Press "v" to enter visual mode
+3. Highlight the character you would like to stop copying at
+4. Press "y" to yank and enter normal mode
+5. Navigate to where you want to paste
+6. Press "p" to paste the yanked text
+
+ref: https://linuxize.com/post/how-to-copy-cut-paste-in-vim/
+
 ## Tabs
 
 `CTRL+w SHIFT+t` - move current pane to new tab
