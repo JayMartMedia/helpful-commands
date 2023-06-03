@@ -18,3 +18,11 @@ NVM (Node Version Manager) is a tool for easily installing and changing versions
 Windows: https://github.com/coreybutler/nvm-windows
 
 Linux/Mac(?): https://github.com/nvm-sh/nvm
+
+## Disable HTTPS (Dangerous)
+
+These commands can make you vulnerable to man-in-the-middle attacks
+
+`npm set strict-ssl false`
+
+`NODE_TLS_REJECT_UNAUTHORIZED=0 npm install {package}`
