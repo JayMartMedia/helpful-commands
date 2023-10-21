@@ -1,5 +1,11 @@
 # Kubernetes
 
+## Namespaces
+
+### Set default namespace
+
+`kubectl config set-context --current --namespace=<namespace>`
+
 ## Cronjobs/Jobs
 
 ### Create and run a job based on a cronjob
