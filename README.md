@@ -66,6 +66,8 @@ docker compose up docs: https://docs.docker.com/engine/reference/commandline/com
 
 `git update-index --no-skip-worktreen packages/backend/local-config.json` - stop ignoring changes to a tracked file in git. Undoes the command above.
 
+`git log --shortstat --author "JayMartMedia" --since "2 weeks ago" --until "1 week ago" | grep "files changed" | awk '{files+=$1; inserted+=$4; deleted+=$6} END {print "files changed:", files, "lines inserted:", inserted, "lines deleted:", deleted}'` - check lines and files changed by user in time period
+
 ## Keyboard Shortcuts
 ### Windows
 `{WIN} + {CTRL} + {Left|Right Arrow}` Switch desktops
