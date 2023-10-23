@@ -55,6 +55,10 @@ Resources:
 
 `curl -k https://www.website.com/file.pdf --output file.pdf` allow insecure/self-signed-cert
 
+## Network
+
+`lsof -i -P -n | grep LISTEN` Check open ports
+
 ## Command History Tricks
 
 ### View recent commands
