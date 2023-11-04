@@ -5,6 +5,8 @@
 
 `docker rmi -f $(docker images -a -q` Remove all docker images
 
+`docker rm $(docker stop $(docker ps --quiet --filter name=<containerName>))` Stop and remove docker container by name
+
 `docker ps` List docker containers
 
 `docker exec -it {containername} bin/bash` SSH into docker container
