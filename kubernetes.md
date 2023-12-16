@@ -6,6 +6,12 @@
 
 `kubectl config set-context --current --namespace=<namespace>`
 
+## Exec into pod
+
+Open bash shell `kubectl exec -it myapp-123 -- /bin/bash` (`//bin//bash` on Windows)
+
+Run command and exit `kubectl exec myapp-123 -- ls`
+
 ## Cronjobs/Jobs
 
 ### Create and run a job based on a cronjob
