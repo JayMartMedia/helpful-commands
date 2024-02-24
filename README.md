@@ -1,4 +1,8 @@
-# Helpful Commands
+# Archived
+
+This repo is now archived since it has been moved to [https://jaymartmedia.github.io/](https://jaymartmedia.github.io/) ([source](https://github.com/JayMartMedia/jaymartmedia.github.io/tree/main/docs/helpful-commands)).
+
+<!--# Helpful Commands
 A list of helpful commands I forget every day 😁
 
 ## CLI Tools
@@ -29,3 +33,4 @@ A list of helpful commands I forget every day 😁
 ## OS
 - [Linux/Unix](./linux-unix.md) - popular server OS and for IT peoples
 - [Windows](./windows.md) - popular desktop OS
+-->
