@@ -1,6 +1,6 @@
 # Archived
 
-This repo is now archived since it has been moved to [https://jaymartmedia.github.io/](https://jaymartmedia.github.io/) ([source](https://github.com/JayMartMedia/jaymartmedia.github.io/tree/main/docs/helpful-commands)).
+This repo is now archived since it has been moved to [https://jaymartmedia.github.io/articles/helpful-commands/](https://jaymartmedia.github.io/articles/helpful-commands/) ([source](https://github.com/JayMartMedia/jaymartmedia.github.io/tree/main/docs/helpful-commands)).
 
 <!--# Helpful Commands
 A list of helpful commands I forget every day 😁
